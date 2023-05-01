@@ -23,9 +23,9 @@ public class PostDto {
 
     private String postImage;
 
-    private String postLatitude;
+    private Double postLatitude;
 
-    private String postLongitude;
+    private Double postLongitude;
 
     private LocalDate postDate;
 
