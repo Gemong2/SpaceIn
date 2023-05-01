@@ -21,9 +21,9 @@ public class PostResponseDto {
 
     private String postContent;
 
-    private String postLatitude;
+    private Double postLatitude;
 
-    private String postLongitude;
+    private Double postLongitude;
 
     private LocalDate postDate;
 

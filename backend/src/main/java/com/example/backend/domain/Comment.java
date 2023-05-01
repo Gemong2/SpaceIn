@@ -1,6 +1,7 @@
 package com.example.backend.domain;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
@@ -8,6 +9,7 @@ import java.time.LocalDate;
 
 @Entity
 @Getter @Setter
+@NoArgsConstructor
 public class Comment {
     @Id @GeneratedValue
     @Column(name = "comment_id")
